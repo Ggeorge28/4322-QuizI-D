@@ -12,13 +12,20 @@ import csv
 
 #open the file
 
-
-
+ed = open("employee_data.csv", "r")
+read = csv.reader(ed)
 
 #create an empty dictionary
-
+edict = {}
 
 #use a loop to iterate through the csv file
+for name in read:
+    
+    
+
+
+
+    
 
 
     #check if the employee fits the search criteria
